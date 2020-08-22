@@ -1,0 +1,100 @@
+#header-nav{
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+li.list-items {
+  display: none;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-brand h1{
+   font-family: 'Lora', serif;
+   margin-bottom: 10px;
+   color: #557c3e;
+   font-size: 1.5em;
+   font-weight: bold; 
+   text-shadow: 1px 1px 1px #222;
+   margin-top: -10px;
+   padding: 3px;
+   color: #000;
+}
+
+.navbar-brand a:hover{
+  text-decoration: none;
+}
+
+.navbar-brand a:visited .navbar-brand a:active, {
+  text-decoration: none;
+}
+
+#dish-headings{
+  text-align: center;
+  font-weight: bold;
+}
+
+#description{
+  font-style: italic;
+  font-size: 1.2em;
+  padding:20px;
+}
+
+h3 a{
+  color: black;
+}
+
+h3 a:hover{
+  text-decoration:none;
+  color: black;
+}
+
+h3 a:link, h3 a:visited{
+  color:black;
+}
+
+#dish-des{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #D3D3D3;
+  border:1px solid #000;
+  margin-right: 5px;
+}
+#menu-heading{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;  
+  font-family: 'Oxygen Mono', monospace;
+}
+
+@media(max-width:991px) and (min-width: 768px){
+  .navbar-brand h1{
+    font-size: 1.8em;
+  }
+}
+
+@media(max-width: 767px){
+  .navbar-brand h1{
+    font-size: 1.8em;
+  }
+
+  li.list-items {
+  display: inline;
+  text-shadow: 0 0 black;
+  text-align: center;
+  color: black;
+  }
+  #nav-list li.list-items a{
+    color: black;
+  }
+  #nav-list li.list-items a:hover {
+     box-shadow: 0 1px 5px 1px #cccccc;
+  }
+}
